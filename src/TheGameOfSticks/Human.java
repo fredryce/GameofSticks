@@ -6,7 +6,7 @@
 package TheGameOfSticks;
 
 import java.security.SecureRandom;
-import java.util.Scanner;
+//import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**

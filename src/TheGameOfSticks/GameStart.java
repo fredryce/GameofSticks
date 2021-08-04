@@ -6,7 +6,7 @@
 package TheGameOfSticks;
 
 import java.security.SecureRandom;
-import java.util.InputMismatchException;
+//import java.util.InputMismatchException;
 import javax.swing.JOptionPane;
 
 /**
