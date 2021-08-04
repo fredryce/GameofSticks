@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package TheGameOfSticks;
+package GamePackage;
+
+
+
 
 import java.security.SecureRandom;
 //import java.util.InputMismatchException;
@@ -13,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author xwang2945
  */
-public class GameStart {
+public class Game {
 
    
     private int totalSticks;
@@ -24,7 +22,7 @@ public class GameStart {
     SecureRandom SR = new SecureRandom();
     
 
-    public GameStart() {
+    public Game() {
         playerChoice = 1;
         totalSticks = 20;
         Winner = 0;
@@ -32,7 +30,7 @@ public class GameStart {
 
     }
 
-    public GameStart(int totalSticks, int Winner, int playerChoice, int arrayCounter) {
+    public Game(int totalSticks, int Winner, int playerChoice, int arrayCounter) {
         this.totalSticks = totalSticks;
         this.Winner = Winner;
         this.playerChoice = playerChoice;
